@@ -1,13 +1,14 @@
 # Local .terraform directories
-**/.terraform/*
+**terraform-jenkins-aws/.terraform/*
 
 # .tfstate files
-*.tfstate
-*.tfstate.*
+terraform-jenkins-aws/terraform.tfstate
+**terraform-jenkins-aws/.tfstate
+**terraform-jenkins-aws/.tfstate.*
 
 # Crash log files
-crash.log
-crash.*.log
+terraform-jenkins-aws/crash.log
+terraform-jenkins-aws/crash.*.log
 
 # Exclude all .tfvars files, which are likely to contain sensitive data, such as
 # password, private keys, and other secrets. These should not be part of version 
@@ -18,10 +19,10 @@ crash.*.log
 
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
+terraform-jenkins-aws/override.tf
+terraform-jenkins-aws/override.tf.json
+*terraform-jenkins-aws/_override.tf
+*terraform-jenkins-aws/_override.tf.json
 
 # Include override files you do wish to add to version control using negated pattern
 # !example_override.tf
@@ -30,7 +31,7 @@ override.tf.json
 # example: *tfplan*
 
 # Ignore CLI configuration files
-.terraformrc
-terraform.rc
+terraform-jenkins-aws/.terraformrc
+terraform-jenkins-aws/terraform.rc
 
-jenkinsseckey.ppk
+terraform-jenkins-aws/jenkinsseckey.ppk
