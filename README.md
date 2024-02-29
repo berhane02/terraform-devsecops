@@ -9,6 +9,9 @@ EasyBuggy is a broken web application in order to understand behavior of bugs an
 
 ![logo](https://raw.githubusercontent.com/wiki/k-tamura/easybuggy/images/mov_eb.gif)
 
+## Architecture Diagram
+<img src="devSecOps.png">
+
 :clock4: Quick Start
 -
 

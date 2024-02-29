@@ -3,6 +3,7 @@
 
 # .tfstate files
 terraform-jenkins-aws/terraform.tfstate
+terraform-jenkins-aws/terraform.tfstate.backup
 **terraform-jenkins-aws/.tfstate
 **terraform-jenkins-aws/.tfstate.*
 
