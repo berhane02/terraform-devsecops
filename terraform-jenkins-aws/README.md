@@ -1,4 +1,4 @@
-# AWS Infrastructure Creation using Terraform by A Security Guru
+# AWS Infrastructure Creation using Terraform by A Security
 
 Helpful Terraform Links:
 - [Terraform Language Documentation](https://www.terraform.io/docs/language/index.html)
