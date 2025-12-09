@@ -1,0 +1,9 @@
+# Example tfvars file - Copy this to dev-west-2.tfvars and fill in your values
+# DO NOT commit dev-west-2.tfvars to git as it contains sensitive information
+
+aws_region = "us-east-1"
+
+vpc_id = "your-vpc-id-here"
+
+key_name = "your-key-pair-name-here"
+
