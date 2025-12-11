@@ -54,6 +54,16 @@ eksctl create cluster --name kubernetes-cluster --version 1.23 --region us-west-
 
 #To Delete EKS cluster
 eksctl delete cluster --region=us-west-2 --name=kubernetes-cluster #delete eks cluster
+
+#Helm commands for Kubernetes package management
+helm version #check helm version
+helm repo add stable https://charts.helm.sh/stable #add stable helm repository
+helm repo update #update helm repositories
+helm search repo <chart-name> #search for helm charts
+helm install <release-name> <chart> #install a helm chart
+helm list #list installed helm releases
+helm uninstall <release-name> #uninstall a helm release
+helm upgrade <release-name> <chart> #upgrade a helm release
 ```
 
 ## Step 4: Cleanup Terraform Resources
